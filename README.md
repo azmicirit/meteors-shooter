@@ -1,7 +1,21 @@
+# INSTALL
+
+FOR WINDOWS
+
+```npm install --ignore-scripts```
+
+for more detail
+
+
+FOR LINUX & MAC
+
+```npm install```
+
+
 # API
 ! Server integration is optional !
 
-## SERVER DEFINATIONS
+## SERVER CONFIGURATION
 `Constants.js` CONSTANTS.url
 
 ## POST SCORE TO SERVER
