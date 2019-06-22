@@ -4,7 +4,7 @@
     "slug": "meteors-shooter",
     "description": "It's funniest way to blast some meteors. Survive in this endless 3D galaxy as you can!",
     "version": "0.1.1",
-    "sdkVersion": "28.0.0",
+    "sdkVersion": "33.0.0",
     "orientation": "landscape",
     "primaryColor": "#000000",
     "icon": "./assets/meteors-shooter.png",

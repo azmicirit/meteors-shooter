@@ -3,31 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "jest-expo": "~27.0.0",
-    "react-native-scripts": "1.14.0",
-    "react-test-renderer": "16.3.1"
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^32.0.0"
   },
-  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "react-native-scripts start",
-    "eject": "react-native-scripts eject",
-    "android": "react-native-scripts android",
-    "ios": "react-native-scripts ios",
-    "test": "jest"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "cannon": "^0.6.2",
-    "expo": "28.0.0",
-    "expo-graphics": "1.0.0-alpha.2",
-    "expo-react-native-adapter": "^1.0.0",
-    "expo-three": "3.0.0-alpha.4",
-    "react": "16.3.1",
-    "react-native": "0.55.2",
-    "react-native-modal": "^6.5.0",
-    "react-navigation": "^2.7.0"
+    "expo": "^33.0.7",
+    "expo-gl": "^5.0.1",
+    "expo-graphics": "^1.1.0",
+    "expo-react-native-adapter": "^3.0.1",
+    "expo-three": "^3.0.0-alpha.8",
+    "react": "^16.8.6",
+    "react-native": "^0.59.9",
+    "react-native-modal": "^11.0.2",
+    "react-navigation": "^3.11.0"
   }
 }
