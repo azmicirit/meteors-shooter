@@ -1,3 +1,6 @@
+![ss2](https://raw.githubusercontent.com/azmicirit/meteors-shooter/master/screenshots/s2.jpg)
+![ss1](https://raw.githubusercontent.com/azmicirit/meteors-shooter/master/screenshots/s1.jpg)
+
 # INSTALL
 
 `npm install`
